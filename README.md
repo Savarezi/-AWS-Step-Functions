@@ -82,7 +82,7 @@ Integração do CloudWatch para logs e monitoramento.
 Boa prática: sempre estruturar o repositório com README, código e imagens organizados.
 
 👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo:
-📘 [📘 insights.md](./docs/insights.md)
+📘 [📘 insights.md](.insights.md)
 
 
 
