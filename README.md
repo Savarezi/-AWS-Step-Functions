@@ -97,7 +97,7 @@ Boa prática: sempre estruturar o repositório com README, código e imagens org
 - [📖 AWS Step Functions - Documentação Oficial](https://docs.aws.amazon.com/step-functions/)
 - [⚡ AWS Free Tier](https://aws.amazon.com/free/)
 - [📓 GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
-- [🎬 Formação DIO - GitHub Certification](https://www.dio.me/certifications/github)
+- [🎬 Formação DIO ](https://www.dio.me/users/patriciasavarezioliveira)
 
 ##
 ✍️ Autor: Paty  
