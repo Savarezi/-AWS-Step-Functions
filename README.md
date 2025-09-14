@@ -100,6 +100,12 @@ Boa prática: sempre estruturar o repositório com README, código e imagens org
 - [🎬 Formação DIO - GitHub Certification](https://www.dio.me/certifications/github)
 
 ##
-✍️ Autor: Paty
-📌 Este repositório foi criado como parte do desafio da DIO.
+✍️ Autor: Paty  
+📌 Este repositório foi criado como parte do desafio da DIO.  
+   Santander Code Girls - 2025
+
+##
+
+<a href="https://www.linkedin.com/in/savarezi"><img src="https://img.shields.io/badge/-LinkedIn-67cb57?style=for-the-badge&logo=linkedin&logoColor=fff"></a>
+
 
