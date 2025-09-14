@@ -29,9 +29,7 @@ O objetivo foi consolidar conceitos aprendidos durante as aulas, aplicando na pr
 ### Diagrama Visual
 .<img width="863" height="453" alt="Step Functions" src="https://github.com/user-attachments/assets/d3cfb538-4dda-458f-a4fa-b141f7801748" />
 
-
-### Print da Execução no Console AWS
-![Execução](./images/Step%20Functions.png)
+]
 
 ---
 
@@ -68,7 +66,23 @@ Trecho ilustrativo:
       "Default": "TratarErro"
     }
   }
-}
+
+```
+##
+💡 Insights e Aprendizados
+
+A importância de definir bem os estados para prever cenários de erro.
+
+Como o Choice State facilita a tomada de decisão dentro do fluxo.
+
+O uso de Wait State para processos assíncronos.
+
+Integração do CloudWatch para logs e monitoramento.
+
+Boa prática: sempre estruturar o repositório com README, código e imagens organizados.
+
+👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo:
+📘 insights.md
 
 
 
