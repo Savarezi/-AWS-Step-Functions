@@ -1,0 +1,60 @@
+{
+  "Comment": "Workflow de teste Free Tier - Step Functions",
+  "StartAt": "TaskInicial",
+  "States": {
+    "TaskInicial": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:REGION:ACCOUNT_ID:function:LambdaTesteGratis",
+      "Next": "VerificacaoResultado",
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "States.TaskFailed"
+          ],
+          "IntervalSeconds": 1,
+          "MaxAttempts": 2,
+          "BackoffRate": 1.5
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "TratarErro"
+        }
+      ]
+    },
+    "VerificacaoResultado": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.status",
+          "StringEquals": "sucesso",
+          "Next": "TaskFinal"
+        },
+        {
+          "Variable": "$.status",
+          "StringEquals": "pendente",
+          "Next": "Aguardar"
+        }
+      ],
+      "Default": "TratarErro"
+    },
+    "Aguardar": {
+      "Type": "Wait",
+      "Seconds": 2,
+      "Next": "TaskInicial"
+    },
+    "TaskFinal": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:REGION:ACCOUNT_ID:function:LambdaFinalTesteGratis",
+      "End": true
+    },
+    "TratarErro": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:REGION:ACCOUNT_ID:function:LambdaErroTesteGratis",
+      "End": true
+    }
+  }
+}
