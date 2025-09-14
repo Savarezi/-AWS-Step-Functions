@@ -27,9 +27,9 @@ O objetivo foi consolidar conceitos aprendidos durante as aulas, aplicando na pr
 ## 🔄 Fluxo da State Machine
 
 ### Diagrama Visual
-.<img width="863" height="453" alt="Step Functions" src="https://github.com/user-attachments/assets/d3cfb538-4dda-458f-a4fa-b141f7801748" />
+<img width="1536" height="1024" alt="fluxograma" src="https://github.com/user-attachments/assets/d4665f70-4f93-4986-b902-18c8c24079d2" />
 
-]
+
 
 ---
 
@@ -69,6 +69,12 @@ Trecho ilustrativo:
 
 ```
 ##
+[Step Functions](./StepFunctions/fluxo)
+
+
+
+
+##
 💡 Insights e Aprendizados
 
 A importância de definir bem os estados para prever cenários de erro.
@@ -84,4 +90,16 @@ Boa prática: sempre estruturar o repositório com README, código e imagens org
 👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo:  
 [📘 insights.md](./docs/insights.md)
 
+##
+
+📚 Recursos Úteis
+
+- [📖 AWS Step Functions - Documentação Oficial](https://docs.aws.amazon.com/step-functions/)
+- [⚡ AWS Free Tier](https://aws.amazon.com/free/)
+- [📓 GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+- [🎬 Formação DIO - GitHub Certification](https://www.dio.me/certifications/github)
+
+##
+✍️ Autor: Paty
+📌 Este repositório foi criado como parte do desafio da DIO.
 
