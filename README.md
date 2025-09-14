@@ -69,7 +69,7 @@ Trecho ilustrativo:
 
 ```
 ##
-[Step Functions](./StepFunctions/fluxo)
+<img width="863" height="453" alt="Step Functions" src="https://github.com/user-attachments/assets/7a613690-eb50-4f4c-8567-5ea1ec5f34c5" />
 
 
 
